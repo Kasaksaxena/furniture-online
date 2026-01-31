@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪑 NexChakra Furniture Studio Pro
+**An Advanced 3D Product Configuration & Inventory Terminal**
 
-## Getting Started
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Live%20Demo-000000?style=for-the-badge&logo=vercel)](https://furniture3d-demo.vercel.app/)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Environment
+The project is deployed and optimized for high-performance rendering at:  
+👉 **[https://furniture3d-demo.vercel.app/](https://furniture3d-demo.vercel.app/)**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Integrated Modules
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. 🏗️ 3D Studio Terminal (Root)
+The core engine of the platform where users can customize premium furniture in real-time.
+* **Real-time Engine**: Powered by Three.js and React Three Fiber for 60FPS rendering.
+* **Deep Customization**: Toggle between **Leather, Fabric, and Wood** textures with dynamic roughness and metalness properties.
+* **Structural Engineering**: Swap backrest designs (Classic, Cross, Ergonomic) and armrest styles.
+* **Production Export**: Finalize build to export a technical `.json` spec sheet for manufacturing.
 
-## Learn More
+### 2. 📦 Fleet Inventory Dashboard (`/inventory`)
+A centralized hub for managing and browsing the product catalog.
+* **Smart Filtering**: Categorize assets into Chairs, Sofas, Tables, and Beds.
+* **Quick View Logic**: Inspect material details, dimensions, and real-time stock status.
+* **Dynamic Routing**: Instant "Launch 3D" integration to move any inventory item into the configuration studio.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. 📊 A/B Comparison Studio (`/comparison`)
+A dual-viewport environment designed for professional build comparisons.
+* **Sync Engine**: Linked rotation controls to inspect two different configurations simultaneously.
+* **Cost Analysis**: Live pricing calculation based on material upgrades (e.g., +₹5,000 for Premium Leather).
+* **Technical Spec Table**: Side-by-side breakdown of material, architecture, and valuation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. 📸 Visual Asset Repository (`/marketing`)
+High-resolution marketing gallery for downloading standardized studio captures.
+* **Multi-Angle Support**: Automated mapping for Front, Side, and Profile views.
+* **4K Lightbox**: Fullscreen inspection mode for premium pro-res assets.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 💻 Tech Stack
+* **Framework**: Next.js 15+ (App Router)
+* **3D Library**: React Three Fiber / Drei (Three.js)
+* **Styling**: Tailwind CSS
+* **Language**: TypeScript (Strict Mode Compliant)
+* **Icons**: Lucide React
+* **Deployment**: Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
